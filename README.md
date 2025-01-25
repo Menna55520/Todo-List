@@ -36,7 +36,7 @@ Todo-List/
 ├── includes/ # Includes reusable PHP files (e.g., database connection)
 ├── logic/ # Handles CRUD operations (e.g., add, edit, delete tasks)
 ├── index.php # Main entry point for the application
-├── README.md # Project documentation
+└──README.md # Project documentation
 
 ---
 
@@ -53,6 +53,6 @@ Todo-List/
 
 - **MySQL** : Database management.
 
--**HTML/CSS**: Frontend structure and styling.
+- **HTML/CSS**: Frontend structure and styling.
 
--**OOP Principles**: Demonstrated in the classes/ folder.
+- **OOP Principles**: Demonstrated in the classes/ folder.
