@@ -29,14 +29,14 @@ The project is structured to separate concerns and practice OOP principles. It i
 ---
 
 ## Folder Structure
-Todo-List/
+Todo-list/
 ├── assets/                  # Contains CSS and styling for the frontend
 ├── classes/                 # Includes PHP classes to practice OOP principles
 ├── database/                # Contains SQL files for database creation
 ├── includes/                # Reusable PHP files (e.g., database connection, app setup)
-├── handle/                   # Handles CRUD operations (e.g., add, edit, delete tasks)
+├── handle/                  # Handles CRUD operations (e.g., add, edit, delete tasks)
 ├── index.php                # Main entry point for the application
-└── README.md                # Project documentation
+├── README.md                # Project documentation
 
 ---
 
