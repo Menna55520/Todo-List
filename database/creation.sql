@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS `todolist` ;
+CREATE TABLE tasks (
+    id INT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    status ENUM('all', 'doing', 'done') NOT NULL DEFAULT 'all',
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+);
