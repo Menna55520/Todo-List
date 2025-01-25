@@ -29,16 +29,13 @@ The project is structured to separate concerns and practice OOP principles. It i
 ---
 
 ## Folder Structure 
-├── Todo-list/
-├── ├── assets/
-├── ├── classes/
-├── ├── database/
-├── ├── includes/
-├── ├── handle/
-├── ├── index.php
-└── ├── README.md
-
-
+- assets/: Contains all static files for the frontend, such as CSS for styling the Todo List interface.
+- classes/: Includes PHP classes to practice Object-Oriented Programming (OOP) principles, such as a validation class or a session class.
+- database/: Contains SQL files for setting up the database, such as creating the tasks table.
+- includes/: Reusable PHP files for common functionality, such as database connection .
+- handle/: Handles the core CRUD operations (Create, Read, Update, Delete) for tasks.
+- index.php: The main entry point for the application, where the Todo List is displayed.
+- README.md: Provides documentation for the project, including setup instructions and usage.
 ---
 
 ## Features
